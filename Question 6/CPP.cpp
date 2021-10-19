@@ -3,7 +3,6 @@
 #pragma GCC optimize("unroll-loops")
 #include <iostream>
 #include <unordered_map>
-#include <vector>
 #include <algorithm>
 using namespace std;
 
@@ -89,7 +88,6 @@ int main() {
 		return 0;
 	}
 
-	vector<int> ans;
 	int ind = 0;
 	for (int i = 0; i < n; i++) {
 		if (s[find_set(i)] == max_size_of_grp) {
